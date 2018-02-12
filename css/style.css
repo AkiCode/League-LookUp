@@ -1,0 +1,113 @@
+body{
+    background: #2D323F;
+}
+
+#logo{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: white;
+}
+
+div.searchBar{
+    background: white;
+    width: auto;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 8px;
+    border-radius: 2px;
+}
+
+div.profileContainer{
+    margin: 0 auto;
+    background: white;
+    width: auto;
+    max-width: 600px;
+    height: auto;
+    min-height: 250px;
+    border-radius: 2px;
+}
+
+div#rankBox{
+    margin-left: 10px;
+    float: left;
+}
+
+#searchBtn{
+    width: 50px;
+    height: 30px;
+    background: #2E5CD8;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: white;
+}
+
+#lookUp{
+    padding: 10px;
+    border: none;
+    outline: none;
+    width: 60%;
+}
+
+#region{
+    padding: 7px;
+    border: none;
+    outline: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+#profilePicture{
+    float: left;
+    margin: 15px;
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 100px;
+    height: auto;
+}
+
+#profileName{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    padding-top: 35px;
+    line-height: 2px;
+}
+
+#profileLevel{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 5px;
+    margin-bottom: 25px;
+}
+
+#streak{
+    width: 50px;
+    height: 30px;
+    background: #2E5CD8;
+    border: none;
+    border-radius: 3px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: white;
+    padding: 3px;
+}
+
+#rankPicture{
+    clear: both;
+    float: left;
+    margin-left: 10px;
+    width: auto;
+    height: 100px;
+}
+
+#rankCurrent{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 8px;
+}
